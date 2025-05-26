@@ -1,0 +1,9 @@
+# OS generated files #
+######################
+node_modules/
+
+# Shopify CLI files
+.shopify/
+
+# IDE files
+.idea
