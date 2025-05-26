@@ -24,5 +24,6 @@ jobs:
       - name: Push theme to Shopify
         env:
           SHOPIFY_CLI_AUTH_TOKEN: ${{ secrets.SHOPIFY_PASSWORD }}
+          SHOPIFY_FLAG_STORE: ${{ secrets.SHOPIFY_STORE }}
         run: |
           shopify theme push --allow-live
